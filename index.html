@@ -32,9 +32,9 @@
      </nav>
        
      <a>
-      <img class="logo" src="./images/logo-black.svg">
+      <img class="logo-black" src="./images/logo-black.svg">
      </a>
-     <address class="contact">
+     <address class="contact-header">
       
         <a class="number header_address" href="tel:+9 999 555 5555">+9 999 555 5555</a>
         <a class="mail header_address" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
@@ -68,41 +68,63 @@
         </div>
       </section>
       <section class="lots">
-        <h2>
-
+        <h2 class="lots__heading">
+          Лоты
         </h2>
-        <ul>
-          <li>
-            <a href="#0"> </a>
-            <article>
-
+        <ul class="lots__card-list">
+          <li><a class="lots-link" href="#0"> 
+            <article class="lots__card-list-item card_type_film">   <a class="card__title">Фильм режиссёра, который бросил киношколу </a>
+            <a class="card__text">
+              Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
+            </a>
+            
+            <div  class="overlay"></div>
             </article>
+            </a>
           </li>
-          <li>
-            <a href="#0"> </a>
-            <article>
-
-            </article>
-
+          <li><a class="lots-link" href="#0"> 
+            <article class="lots__card-list-item card_type_book">
+            <a class="card__title">Книга, где описан один скучный день из жизни рекламного агента </a>
+            <a class="card__text">
+              Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?
+            </a>
+            <div  class="overlay"></div>
+          </article>
+            </a>
           </li>
-          <li>
-            <a href="#0"> </a>
-            <article>
-
+          
+          <li><a class="lots-link" href="#0"> 
+            <article class="lots__card-list-item card_type_picture"> 
+              
+               <a class="card__title"> Картина, которую повторит даже 5-летний сын маминой подруги</a>
+            <a class="card__text">
+              Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?
+            </a>
+            <div  class="overlay"></div>
+           
             </article>
+           </a> 
           </li>
         </ul>
+        <a href="#0" class="lots__look-more-link">посмотреть больше</a>
       </section>
       <section class="about">
-        <div>
-
-        </div>
-        <div>
-          <h2>
-
+        
+          <div class="about_logo">
+            <a><img class="logo-white" src="./images/logo-white.svg"></a>
+          </div>
+        
+        <div class="about__column">
+          <h2 class="about__title">
+            Об аукционе
           </h2>
-          <p>
-
+          <p class="about__text first">
+            Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще не должны были попасть<br> ни на один аукцион. Потому что кому нужен дневник девочки-<br>подростка или картина, которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?
+          
+          </p>
+          <p class="about__text second">
+            Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах растерзанные критиками. Непринятые и непонятые. Когда-то они казались просто неудачными. Но, несмотря<br>
+на критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить современную культуру. Когда в эти вещи не верил никто, продолжали верить их создатели. И сейчас эти лоты стали культовыми. 
           </p>
         </div>
       </section>
@@ -110,21 +132,42 @@
    <footer class="footer">
 
     
-    <address>
+    <address class="contact-footer">
+      
+      <a class="number header_address" href="tel:+9 999 555 5555">+9 999 555 5555</a>
+      <a class="mail header_address" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+      <a class="address header_address">наб. Принсенграхт 263-265, Амстердам</a>
 
-     </address> 
-      <nav>
+   </address> 
+   <nav>
+   <ul class="footer__menu">
+    <li class="no-link footer_text">
+      <a>
+        главная
+      </a>
+    </li>
+    <li class="link footer_text">
+    <a href="#0">посмотреть лоты</a>
 
-     </nav>
-      <ul>
-      <li>
+    </li>
+    <li class="link footer_text">
+      <a href="#0"> об аукционе</a>
 
       </li>
-      <li>
 
+  </ul>
+  
+ </nav>
+   
+      <ul class="footer__social-list">
+      <li class="footer__social-list-item">
+        <a href="#0" class="footer__social-link"><img class="footer__social-icon" src="./images/yt.svg"></a>
       </li>
-      <li>
-
+      <li class="footer__social-list-item">
+        <a href="#0" class="footer__social-link"><img class="footer__social-icon" src="./images/vk.svg"></a>
+      </li>
+      <li class="footer__social-list-item">
+        <a href="#0" class="footer__social-link"><img class="footer__social-icon" src="./images/pinterest.svg"></a>
       </li>
      </ul>
    </footer>

@@ -27,6 +27,7 @@ blockquote {
 
 a {
   color: inherit;
+  margin: 0;
 }
 
 img {
@@ -36,3 +37,4 @@ img {
 button {
   font: inherit;
 }
+
