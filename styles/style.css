@@ -205,6 +205,7 @@ span{
   justify-content: space-between;
   gap: 25px;
   margin-top: 27px;
+  list-style-type: none;
 }
 
 .lots__card-list-item{
